@@ -1,0 +1,14 @@
+.home {
+  color: salmon;
+  display: flex;
+
+  .left {
+    width: 200px;
+    height: 100vh;
+    background-color: #fff;
+  }
+
+  .right {
+    width: calc(100% - 200px);
+  }
+}
